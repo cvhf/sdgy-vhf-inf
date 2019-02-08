@@ -1,0 +1,11 @@
+ld 2
+st a
+in h
+ld h
+mod a
+cmp 0
+jeq #10
+out 1
+jmp #11
+out 0
+end

@@ -1,0 +1,14 @@
+in h
+ld 1
+st a
+st b
+ld  a
+add 1
+cmp h
+jgt #13
+st a
+ld b
+add a
+jmp #4
+out b
+end
